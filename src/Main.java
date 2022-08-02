@@ -1,15 +1,19 @@
 public class Main {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
-         int year = 2021;
-         if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
-             System.out.printf("Год %s високосный", year);
-         }else {
-             System.out.printf("Год %s не високосный",year);
-         }
 
- }
-            }
+        int deliveryDistance = 95;
+        if (deliveryDistance < 20) {
+            System.out.println("Доставка за 1 день");
+        }
+        if (deliveryDistance < 60) {
+            System.out.println("Доставка за 2 дня");
+        }
+        if (deliveryDistance < 100) {
+            System.out.println("Доставка за 3 дня");
+        }
+    }
+}
 
 
 
